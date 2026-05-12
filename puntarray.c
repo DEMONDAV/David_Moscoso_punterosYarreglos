@@ -12,8 +12,8 @@ int main()
    {
     
     printf("arrelog [%d] = %d ", i, a [i]);
-    ptr = &a[i];
-    printf("%d\n",*ptr);
+    //ptr = &a[i];
+    printf("%d\n",*(ptr+i));
 
    }
    
